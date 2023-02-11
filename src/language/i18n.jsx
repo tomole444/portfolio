@@ -4,7 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
 // TODO Need to add sensitive info to Doppler account
-const apiKey = "MYDVUGR8lgu8_3piN00raA";
+const apiKey = "Your API Key";
 const loadPath = `https://api.i18nexus.com/project_resources/translations/{{lng}}/{{ns}}.json?api_key=${apiKey}`;
 
 i18next
